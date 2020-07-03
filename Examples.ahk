@@ -5,6 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; hotstring
 ::btw::by the way
+::.g::email@gmail.com
 return
 
 ;hotlink 
