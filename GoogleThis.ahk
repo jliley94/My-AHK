@@ -3,10 +3,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-^+c::
+^+g::
 {
 Send, ^c
-Sleep 50
+KeyWait g ;wait for key to be released
 Run, http://www.google.com/search?q=%clipboard%
 Return
 }
